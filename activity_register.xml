@@ -246,20 +246,24 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <!-- Cambios de estilo en botón de "Regístrate" -->
+            <!-- Al botón de "Regístrate, se le ha cambiado el alto de 60dp a 70dp, la elevación "sombra" de 0dp a 5dp, el color de fondo del color primario a azul, el tamaño de letra de 16sp a 14sp y por último, el espacio de letras de 0.05 a 0.03. -->
+            <!-- Los cambios fuera realizados para que el botón coincidiera y combinara de una mejor forma con el diseño de la aplicación y para que el usuario tuviera una mejor experiencia. -->
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnRegistro"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="70dp"
                 android:stateListAnimator="@null"
-                android:elevation="0dp"
+                android:elevation="5dp"
                 app:layout_constraintTop_toBottomOf="@id/passwordTextInputLayout"
                 android:textColor="@color/white"
-                android:backgroundTint="@color/colorPrimary"
+                android:backgroundTint="@color/blue"
                 android:layout_marginTop="20dp"
                 android:text="@string/register"
                 android:textAllCaps="false"
-                android:textSize="16sp"
-                android:letterSpacing="0.05"
+                android:textSize="14sp"
+                android:letterSpacing="0.03"
             />
 
             <TextView
