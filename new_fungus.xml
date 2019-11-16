@@ -434,6 +434,10 @@
                 android:letterSpacing="0.05"
                 />
 
+            <!-- Cambios de estilo en botón de "Registrar Espécimen" -->
+            <!-- Al botón de "Registrar Espécimen"", se le ha cambiado el alto de 60dp a 40dp, la elevación "sombra" de 0dp a 10dp, el color de fondo del color primario a verde, el tamaño de letra de 16sp a 18sp y por último, el espacio de letras de 0.05 a 0.08. -->
+            <!-- Los cambios fuera realizados para que el botón coincidiera y combinara de una mejor forma con el diseño de la aplicación y para que el usuario tuviera una mejor experiencia. -->
+
             <com.google.android.material.button.MaterialButton
                 android:text="@string/registerSpecimen"
                 android:layout_width="match_parent"
